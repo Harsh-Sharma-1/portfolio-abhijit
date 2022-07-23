@@ -1,0 +1,16 @@
+.social-container {
+  display: flex;
+  height: 77vh;
+  margin-top: 6rem;
+}
+.s-icons > * {
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  height: 30px;
+  color: aquamarine;
+}
+.s-icons > * :hover {
+  cursor: pointer;
+  color: white;
+}
